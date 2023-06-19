@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gemini.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="logomenu">
+            <img src="logo gemini.PNG">
+
+        </div>
+        <div class="hamburger">
+            <div class="line"> </div>
+            <div class="line"></div>
+            <div class="line"> </div>
+            
+        </div>
+
+        <div class="navbarre" id="home">
+            
+            
+                <ul>
+                    <li> <a href="#" class="active">HOME</a> </li>
+                    <li> <a href="#quisommesnous">A PROPOS DE NOUS</a> </li>
+                    <li> <a href="#slider">FILIERES</a> </li>
+                    <li> <a href="#cours-à-distance">COURS A DISTANCE</a> </li>
+                    <li> <a href="#event">EVÈNEMENTS</a> </li>
+                </ul>
+                
+                <div class="shopnowpart">
+                    <div class="shopnowbutton">
+                        <a href="" class="buttonstart"> <i class='bx bxl-whatsapp' id="whatsapp"></i> contactez-nous <i
+                                class='bx bx-chevron-right'></i></a>
+        
+                    </div>
+                </div>
+        </div>
+
+            
+
+        
+           
+        
+    </header>
+    <div class="touteslesfilieres">
+        <div class="touteslesfilieresbtn">
+            <a href="" >VOIR TOUTES LES FILIERES</a>
+        </div>
+            <div class="filieresbtnpart">
+                
+            
+    <ul class="filieresbtn">
+    
+    
+             <li><a href="./minespetrole.html">MINES ET PETROLE</a></li>
+             <li><a href="./statistique.html">STATISTIQUES</a></li>
+             <li><a href="./reseauTelecom.html">RESEAU TELECOM</a></li>
+             <li><a href="./geniecivile.html">GENIE CIVIL</a></li>
+             <li><a href="./informatique.html">INFORMATIQUE</a></li>
+             <li><a href="./gestion.html">GESTION</a></li>
+            </div>
+    
+        </div>
+    
+    </ul>
+    
+    </div>
+    
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick=function(){
+            navbarre = document.querySelector(".navbarre");
+            navbarre.classList.toggle("active")
+        }
+        
+        
+        
+    </script>
+    <script>
+        touteslesfilieresbtn = document.querySelector(".touteslesfilieresbtn ");
+        touteslesfilieresbtn.onclick=function(){
+            filieresbtn = document.querySelector(".filieresbtn");
+            filieresbtn.classList.toggle("active")
+        }
+        
+        
+        
+    </script>
+
+
+
+</body>
+</html>

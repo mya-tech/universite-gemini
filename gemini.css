@@ -1,0 +1,2022 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,600&display=swap'); 
+
+:root{
+    --primary-color:  #c98d83;
+    --secondary : #783b31;
+    --bg: #f2f1ec;
+    --black: #000;
+    --white: #fff;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+*{
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s linear;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+  }
+  
+  html::-webkit-scrollbar{
+    width: .8rem;
+  }
+  
+  html::-webkit-scrollbar-track{
+    background: transparent;
+  }
+  
+  html::-webkit-scrollbar-thumb{
+    background: #3f618e;
+    border-radius: 5rem;
+  }
+/*header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding-right: 10%;
+    padding: 15px 10%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+    
+    
+}
+
+.navbarre{
+   position: fixed;
+    flex-direction: row;
+    display: flex;
+    vertical-align: middle;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    
+
+}
+.logomenu{
+   
+}
+.logomenu img{
+    width: 120px;
+    height: 68px;
+    padding-top:5px ;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+   
+    
+    
+}
+.navbarremenu ul{
+    
+    display: flex;
+    align-items: baseline;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
+   
+    
+}
+.navbarremenu a{
+    text-decoration: none;
+    color: gray;
+    font-family: 'Vidaloka';
+    padding-left: 50px;
+    white-space: nowrap;
+    padding-top: 20px;
+}
+.navbarremenu a:hover{
+    
+    color: #cb0f0f;
+    
+}
+.navbarremenu li{
+    list-style-type: none;
+    
+
+    
+}
+@media (max-width:1480px) {
+
+    
+header{
+    
+    text-align: center;
+    justify-content: center;
+    padding: 15px 10% ;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    
+    
+}
+.shopnowbutton{
+    
+    
+    padding-left: 50px;
+   
+
+
+}
+
+}
+@media (max-width:1210px) {
+
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        padding: 15px 10% ;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        
+        
+    }
+    .logomenu img{
+        padding-left: 20px;
+        
+         
+         
+     }
+    .shopnowbutton{
+        
+        
+        padding-left: 40px;
+       
+    
+    
+    }
+}
+@media (max-width:1170px) {
+    .navbarremenu a{
+        
+        padding-left: 20px;
+        
+    
+}
+.navbarremenu ul{
+    
+    
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    
+}
+.shopnowbutton{
+    
+    
+    padding-left: 20px;
+   
+
+
+}
+.logomenu img{
+   padding-left: 20px;
+   
+    
+    
+}
+
+        
+        
+        
+    
+        
+    
+
+    
+}
+@media (max-width:1040px) {
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        padding: 15px 10% ;
+        padding-right: 10%;
+        padding-bottom: 50px;
+        
+        
+    }
+    
+    .navbarremenu a{
+        
+        padding-left: 30px;
+        
+    
+}
+.navbarremenu ul{
+    
+    
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    
+}
+.shopnowbutton{
+    
+    
+    margin-left: 10px;
+   
+
+
+}
+.logomenu img{
+   padding-left: 15px;
+   
+    
+    
+}
+.shopnowbutton a{
+    
+    padding: 10px;
+    padding-right: 15px;
+    margin-right: 10px;
+   
+    
+    
+    
+
+}
+
+        
+
+
+    
+}
+@media (max-width:1035px) {
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        
+        
+        
+    }
+    
+    .navbarremenu a{
+        
+        padding-left: 20px;
+        
+    
+}
+.navbarremenu ul{
+    
+    
+    margin-left: 60px;
+   
+   
+    
+}
+.shopnowbutton{
+    
+    margin-left: ;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+   
+
+
+}
+.logomenu img{
+    padding-left: 10px;
+    
+     
+     
+ }
+
+        
+
+
+    
+}
+@media (max-width:878px) {
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        
+        
+        
+    }
+    
+    .navbarremenu a{
+        
+        padding-left: 15px;
+        
+    
+}
+.navbarremenu ul{
+    
+    
+    margin-left: 20px;
+    padding-right: -30px
+   
+   
+    
+}
+.shopnowbutton{
+    
+    margin-left: ;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+   
+
+
+}
+.logomenu img{
+    padding-left: 10px;
+    
+     
+     
+ }
+
+        
+
+
+    
+}
+@media (max-width:801px) {
+    header{
+    
+        text-align: center;
+        justify-content: center;
+        
+        
+        
+        
+    }
+    
+        #menu-icon{
+        display: block;
+        
+        }
+        
+        .navbarremenu ul{
+        position: absolute; 
+        top: 100%;
+        right: 0px; 
+        width: 100%;
+        max-width: 1000px;
+        height: 30vh;
+        background: white;
+        display: flex; 
+        align-items: center;
+        flex-direction: column;
+        
+        padding-left: 450px;
+        padding-right: 450px;
+        color: white
+       
+        }
+       
+    
+    
+#menu-ico{
+    
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    padding-right: 10px;
+    
+   
+
+
+}
+
+ .shopnowbutton{
+    
+   opacity: 1;
+    visibility: visible;
+    display: block;
+    
+   
+
+
+}
+
+        
+
+
+    
+}*/
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    background: white;
+    font-family: 'vidoloka';
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+header .navbarre {
+    display: flex;
+    align-items: center;
+
+   
+}
+header  .logomenu img{
+    
+    width: 120px;
+    height: 68px;
+    padding-top:5px ;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+.hamburger{
+
+    display: none;
+}
+
+.navbarre.active{
+    height: 300px;
+}
+header .navbarre  ul {
+    padding-top: 25px;
+    display: flex;
+}
+.navbarre ul li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Vidaloka';
+    white-space: nowrap;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.2s;
+    
+   
+}
+.navbarre ul li {
+    list-style-type: none;
+}
+.navbarre ul li a:hover{
+    color: #cb0f0f;
+}
+
+
+header .shopnowpart {
+    display: flex;
+    align-items: center;
+   
+}
+
+.shopnowbutton{
+    
+    vertical-align: middle;
+    align-items: center;
+    
+    white-space: nowrap;
+
+
+}
+.shopnowbutton a{
+    color: #033971;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px;
+    padding-right: 22px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #033971;
+    background-color: transparent;
+   
+    font-family: 'vidaloka';
+    
+    
+    
+
+}
+#whatsapp{
+    color: #0b2239;
+    font-size: xx-large;
+    vertical-align: middle;
+    align-items: center;
+}
+.buttonstart{
+    vertical-align: middle;
+    color: #0b2239;
+
+}
+
+.buttonstart:hover {
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: green;
+   
+
+}
+
+
+@media only screen and (max-width: 1320px) {
+    header {
+        padding: 0 40px;
+    }
+   
+}
+@media only screen and (max-width:1240px) {
+    header{
+        padding: 0 35px;
+    }
+}
+@media only screen and (max-width:1180px) {
+    header{
+        padding: 0 30px;
+    }
+    .shopnowbutton{
+        display: none;
+        
+       }
+       .navbarre ul li a {
+        
+        padding: 10px 30px;
+        transition: 0.2s;
+        
+       
+    }
+
+}
+@media only screen and (max-width: 1100px) {
+   .shopnowbutton{
+    display: none;
+    
+   }
+   .navbarre ul li a {
+        
+    padding: 10px 20px;
+    transition: 0.2s;
+    
+   
+}
+   header{
+    padding: 0 20px;
+}
+
+}
+@media only screen and (max-width:950px) {
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+       width: 30px;
+       height: 3px;
+       background-color: #0b2239;
+       margin: 6px 0;
+    }
+    .navbarre {
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vW;
+        background-color: #033971;
+        transition: 0.5s;
+        overflow: hidden;
+
+    }
+    header .navbarre ul{
+        display: block;
+        justify-content: center;
+        width: fit-content;
+        margin: 40px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .navbarre.active ul{
+        opacity: 1;
+    }
+    header .navbarre ul a{
+        padding-top: 15px;
+        color: white;
+        font-size: large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shopnowbutton{
+    
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 10%;
+    white-space: nowrap;
+
+
+}
+.shopnowbutton a{
+    color: #033971;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 10px;
+    padding-right: 22px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #033971;
+    background-color: transparent;
+    margin-right: 20px;
+    font-family: 'vidaloka';
+    
+    
+    
+
+}
+#whatsapp{
+    color: #0b2239;
+    font-size: xx-large;
+    vertical-align: middle;
+    align-items: center;
+}
+.buttonstart{
+    vertical-align: middle;
+    color: #0b2239;
+
+}
+
+.buttonstart:hover {
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: green;
+   
+
+}
+#menu-ico{
+    font-size: 35px;
+    color: #033971;
+    cursor: pointer;
+    padding-top: 30px;
+    display: none;
+    z-index: 1001;
+    opacity: 0;
+}
+
+
+
+
+/* home */
+
+
+  
+  .home{
+    padding: 0%;
+  }
+  
+  * {
+	font-family: 'Montserrat', sans-serif;
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	top: 300px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: transparent;
+	padding: 10px 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+	display: inline-block;
+	color: white;
+	margin-top: 15px;
+}
+.carousel-caption a:hover{
+	background-color: green;
+    color: white;
+}
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.d-block {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 300px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
+
+/*HOME*/
+
+/*NOS FILIERES*/
+
+
+
+#slider{
+    
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+   
+}
+.container{
+    width: 1600px;
+    margin: 0;
+}
+.subcontainer{
+    width: 100%;
+    margin: 0;
+}
+.slide-img a {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+}
+.slide-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+    color: white;
+
+}
+
+.slide-img{
+   width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.img-1{
+   width: 250px;
+   height: 250px;
+    background-image: url(./iconsgemini/Pipeline\ maintenance-amico.png);
+}
+.img-2{
+    width: 250px;
+    height: 250px;
+    background-image: url(./iconsgemini/Construction-amico-2.png);
+}
+.img-3{
+    width: 250px;
+    height: 250px;
+    background-image: url(./iconsgemini/Pair\ programming-cuate.png)
+}
+.img-4{
+    width: 250px;
+    height: 250px;
+    background-image: url(./iconsgemini/Presentation-cuate.png);
+}
+.img-5{
+    width: 250px;
+    height: 250px;
+    background-image: url(./iconsgemini/Company-amico\ copie\ 2.png);
+    color: #cb0f0f;
+}
+.img-6{
+    width: 250px;
+    height: 250px;
+    background-image: url(./iconsgemini/Online\ world-amico.png);
+}
+
+.img-1:hover{
+   
+    opacity: 1;
+    transform: scale(1);
+
+}
+.img-2:hover{
+   
+    opacity: 1;
+    transform: scale(1);
+}
+.img-3:hover{
+    
+    opacity: 1;
+    transform: scale(1);
+}
+.img-4:hover{
+    
+    opacity: 1;
+    transform: scale(1);
+}
+.img-5:hover{
+   
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+#slider h2{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding-bottom: 30px;
+}
+#slider h3{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+    text-align: center;
+   
+}
+.filieres{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+.touteslesfilieres{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.touteslesfilieres h3{
+    color: #033971;
+    font-family: 'vidaloka';
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    border-radius: 15px;
+    border: 2px solid #033971 ;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    
+}
+.touteslesfilieresbtn a {
+   color: white;
+   background-color: #033971;
+    
+}
+.filieresbtnpart {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 0px;
+   
+    
+}
+.filieresbtn {
+    display: flex;
+    justify-content: space-around;
+    height: 0px;
+   
+    
+}
+.touteslesfilieresbtn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.filieresbtn.active {
+    height: 100px;
+   
+    
+}
+.filieresbtn a {
+    font-family: 'vidaloka';
+   text-decoration: none;
+    color: #0b2239;
+    border-bottom: #033971 2px solid;
+    padding-bottom: 3px;
+    opacity: 0;
+    overflow: hidden;
+  
+    
+}
+.filieresbtn.active a{
+    opacity: 1;
+    overflow: visible;
+}
+.filieresbtnpart li {
+    list-style: none;
+    padding-left: 50px;
+}
+.filieresbtnpart a:hover {
+    text-decoration: none;
+     color: #033971;
+     border-bottom: #0b2239 2px solid;
+     padding-bottom: 5px;
+     transition: 0.3s linear;
+ }
+
+
+
+
+
+
+/*NOS FILIERES*/
+
+
+/*NOS CENTRES */
+.nos-centres{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    box-shadow: var(--box-shadow);
+}
+.nos-centres .title{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.titles span{
+    color: #3f618e;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    font-weight: bold;
+}
+.titre-centre h2 {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.titre-centre li {
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    list-style-type: none;
+    
+}
+.nos-centres p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+  
+}
+.centresblock{
+    display: flex;
+    justify-content: space-around;
+}
+.diff-centres{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.diff-centres img{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*NOS CENTRES */
+
+
+/*COURS A DISTANCE */
+.cours-à-distance{
+    padding: 30px;
+    justify-content: center;
+    box-shadow: var(--box-shadow);
+}
+.coursenligne-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partieimagecours img{
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.titlecoursenligne{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.cours-à-distance p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+}
+.partietextecours h2{
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+    font-style: italic;
+}
+.titlecoursenligne span{
+    color: #3f618e;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+}
+
+
+/*COURS A DISTANCE */
+
+
+
+
+
+/* gallery */
+
+.gallery .gallery-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem, 2fr));
+    gap: 2rem;
+    box-shadow: var(--box-shadow);
+    padding: 60px;
+   
+  }
+  
+  .gallery .gallery-container .box{
+    height: 27rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery .gallery-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  
+  .gallery .gallery-container .box:hover img{
+    transform: scale(1.1);
+  }
+  
+  .gallery .gallery-container .box .icons{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .gallery .gallery-container .box .icons i{
+    font-size: 6rem;
+    color: var(--white);
+  }
+  
+  .gallery .gallery-container .box:hover .icons{
+    display: flex;
+  }
+  
+  
+  /* gallery end*/
+  
+
+/*our team*/
+.staff{
+    box-shadow: var(--box-shadow);
+}
+
+
+.section-title h1{
+    color: black;
+    
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.section-title p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+
+}
+.wrapper{
+    padding: 3% 10%;
+}
+#staffmembers{
+    padding: 50px 0 ;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.single-service{
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.single-service img{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.overplay{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 40px;
+    text-align: center;
+    transition: height 0.5;
+    color: #000;
+    height: 0;
+    background: linear-gradient(transparent 15%, rgba(255,255,255,0.8) 35%);
+    border-radius: 15px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.overplay h2{
+    color: white;
+    
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+    text-transform: capitalize;
+}
+.liensicons a{
+    flex-direction: row;
+    text-decoration: none;
+
+    
+}
+.liensicons  i {
+    height: 4.5rem;
+    justify-content: center;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 10%;
+    font-size: 1.7rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+ .liensicons i:hover{
+    background: #3f618e;
+  }
+.single-service:hover img{
+    transform: scale(1.4);
+}
+.single-service:hover .overplay{
+    height: 100%;
+}
+
+/*our team*/
+
+/*about us*/
+
+
+.sectionapropos{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.quisommesnoustexte h2{
+    color: black;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.quisommesnoustexte p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sectionapropos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.imageapropos img{
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.texteapropos{
+    width: 500px;
+    margin-top: 50px;
+}
+.apropostextpricipale h1{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+}
+.apropostextpricipale h5{
+    color:  #3f618e;
+}
+.apropostextpricipale p{
+    color: black;
+    font-size: large;
+    text-align: left;
+    font-family: 'Vidaloka';
+    justify-content: left;
+    
+}
+.blockbutton a{
+    background-color: #3f618e;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.blockbutton a:hover{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.block img{
+    width: 100px;
+   
+}
+
+/*about us*/
+
+/*event part*/
+
+.event{
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.eventtitle h1{
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    padding: 30px;
+    
+}
+.eventtitle p{
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Vidaloka';
+    justify-content: center;
+    
+}
+.eventcarré{
+    margin-left: 330px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 800px;
+}
+
+
+.eventparttexte{
+   justify-content: center;
+ 
+   margin-top: 50px;
+}
+.eventparttexte h1{
+    color: black;
+    font-size: xx-large;
+    font-family: 'Vidaloka';
+    
+}
+.eventparttexte p{
+    color: black;
+    font-size: large;
+    text-align: left;
+    font-family: 'Vidaloka';
+    justify-content: center;
+    
+}
+.eventimage img{
+    width: 300px;
+    margin-right: 100px;
+    border-radius: 10px;
+    height: 320px;
+}
+.eventpart{
+    padding: 15px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    
+    
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+   
+}
+
+.eventpart h5{
+    color: teal;
+    font-size: medium;
+    font-family: 'Vidaloka';
+}
+.clockicon{
+    display: flex;
+    vertical-align: middle; 
+}
+.clockicon h2{
+    color: black;
+    font-size: medium;
+    font-family: 'Vidaloka';
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.mapicon{
+    display: flex;
+    vertical-align: middle;
+}
+.mapicon h2{
+    color: black;
+    font-size: medium;
+    font-family: 'Vidaloka';
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.blockbuttonEVENT{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.blockbuttonEVENT a{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Vidaloka';
+}
+.blockbuttonEVENT a:hover{
+    background-color: green;
+    color: white;
+    
+   
+}
+
+/*event part*/
+
+/*feedbacks*/
+
+.feedback{
+    padding-bottom: 100px;
+    box-shadow: var(--box-shadow);
+}
+
+.lignedesbulles{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.texte-bulle h2{
+    font-size: medium;
+    font-family:'Vidaloka' ;
+    text-align: left;
+    color: black;
+}
+.texte-bulle{
+    background-color:  #3f618e;   
+    padding:20px 15px;
+    border-radius:15px; 
+    width:350px;
+    
+
+}
+.bxs-quote-right{
+    color: white;
+    text-align: right;
+    font-size: 50px;
+
+}
+
+
+
+.texte-bulle::after{
+    content:""; 
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top: 20px solid #3f618e;
+    position: absolute;
+    top: 175px;
+   
+    }
+    .bulledessous{
+        margin-top: 15px;
+    }
+    .imagedebulle{
+       width: 60px;
+       border-radius: 100%;
+       border: 1px solid #3f618e;
+    }
+    .bulledessous h2 {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: 'Vidaloka';
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+    .bulledessous h3 {
+        color: black;
+        font-size: small;
+        font-family: 'Vidaloka';
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+
+/*feedbacks*/
+
+/*footer*/
+.footer{
+    background-color: #3f618e;
+    margin-top: 100px;
+   
+}
+.footercategorie {
+ display: flex;
+ justify-content: space-around;
+    text-align: left;
+    padding-top: 30px;
+   
+    
+}
+    .box .share a{
+        height: 4.5rem;
+        justify-content: center;
+        width: 4.5rem;
+        line-height: 4.5rem;
+        border-radius: 10%;
+        font-size: 1.7rem;
+        
+        text-decoration: none;
+        text-align: center;
+      }
+      
+       .box .share a:hover  {
+       color: white;
+        background-color: #cb0f0f;
+      }  
+
+      .footerpart1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .footerpart1 p{
+       color: #fff;
+       font-family: 'Vidaloka';
+      }
+.footerpart1 .part1image {
+    text-align: center;
+    justify-content: center;
+}
+.footerpart1 .part1image img{
+    width: 100px;
+   
+}
+.title{
+    color: white;
+    font-size: x-large;
+    font-family: 'Vidaloka';
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30px;
+}
+.footercategorie li{
+    list-style: none;
+}
+.footercategorie a{
+    text-decoration: none;
+    color: white;
+   
+}
+.footerpart2 a{
+    font-family: 'Vidaloka';
+}
+.footerpart3 a{
+    font-family: 'Vidaloka';
+}
+.footerpartcontact li{
+    list-style: none;
+    color: white;
+}
+.footerpartcontact{
+    line-height: 2;
+}
+
+
+
+
+
+/*footer*/
+
+
+/*rights*/
+
+.rights{
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    padding-bottom: 5px;
+   
+}
+.texte-rights{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.bx-chevrons-up{
+    position: absolute;
+    right: 15px;
+   margin-top: 10px;
+    border-radius: 100%;
+    background-color: orange;
+    color: #000;
+    font-size: 50px;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s linear;
+}
+.bx-chevrons-up:hover{
+    color: white;
+    margin-top: 7px;
+   
+
+}
+.texte-rights h2{
+    color: black;
+}
+
+
+/*rights*/
+
+
+
+
+
+
+
+/* les differentes pages*/
+.fonddespages{
+    background: url(./image1assombri.jpeg) no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    min-height: 65vh;
+    padding-top: 200px;
+
+}
+.fonddespages .title h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Vidaloka';
+    font-style: italic;
+}
+.liensfonddespages a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Vidaloka';
+    font-size: medium;
+    vertical-align: baseline;
+}
+.liensfonddespages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: baseline;
+    padding: 30px;
+}
+.liensfonddespages h2{
+    color: white;
+    font-family: 'Vidaloka';
+    font-size: medium;
+}
+
+.plage-bleue{
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 60%;
+    background-color: #033971;
+}
+
+.bandeinfo{
+    color: white;
+    margin-top: 15px;
+    justify-content: left;
+    min-height: 200px;
+    width: 800px;
+}
+.instructor img{
+    width: 50px;
+    padding: 5px;
+}
+.instructorandcategorie{
+    display: flex;
+    justify-content:space-around ;
+}
+.instructorandcategorie  h3{
+    color: #3f618e;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: 'Vidaloka';
+}
+.instructorandcategorie  h2{
+    color: white;
+    font-size: large;
+    font-family: 'Vidaloka';
+}
+.instructor{
+    display: flex;
+    vertical-align: middle;
+}
+.categorie{
+    display: flex;
+    vertical-align: middle;
+}
+.fa-bookmark{
+    color: #3f618e;
+    font-size: 40px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.listeinfo ul{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.listeinfo li{
+    list-style: none;
+}
+.listeinfo .fa-regular{
+    color: #3f618e;
+    font-size: 30px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.cours-part1{
+    display: flex;
+    justify-content: space-between;
+}
+.cours{
+    margin-top: 100px;
+    font-family: 'Vidaloka';
+
+}
+.appreciationcours {
+    border: #3f618e 3px solid;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -5%;
+    max-width: 300px;
+    margin-right: 40px;
+    max-height: 600px;
+}
+.appreciationcours .boutoninscription a {
+	text-transform: uppercase;
+    color: white;
+	text-decoration: none;
+	background: transparent;
+	padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid #033971;
+	display: inline-block;
+	margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'vidaloka';
+    margin-bottom: 20px;
+ }
+ .appreciationcours .boutoninscription a:hover{
+	background-color: green ;
+    color: white;
+    
+}
+
+.cours h1{
+    color: white;
+    font-size: 30px;
+   text-align: center;
+    font-family: 'Vidaloka';
+
+   
+}
+.cours h2{
+    color: white;
+    font-size: medium;
+    text-align: left;
+    font-family: 'Vidaloka';
+}
+
+
+
+
+.cours1image img{
+    width: 290px;
+    z-index: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+   
+   
+}
+.cours1texte h2 {
+    color: #033971;
+    justify-content: center;
+    text-align: center;
+    font-family: 'vidaloka';
+    font-size: larger;
+}
+.cours1texte p {
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-family: 'vidaloka';
+    font-size: medium;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    color: #033971;
+    font-size: 30px;
+}
+
+
+/*ACCORDEON PART */
+.accordeonpart{
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.accordeon{
+    width: 800px;
+}
+.accordeon li{
+    margin:20px;
+    list-style: none;
+    border-radius: 8px;
+    background-color:ghostwhite;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+.accordeon li label{
+    padding: 10px;
+    align-items: center;
+    font-family: 'vidaloka';
+    font-size: larger;
+    cursor: pointer;
+}
+ label::before{
+    content: "+";
+    font-size: x-large;
+    margin-right: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordeon .required{
+    color: #555;
+    line-height: 26px;
+    padding: 0 10px ;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordeon input[type="radio"]:checked + label + .required{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordeon input[type="radio"]:checked + label::before{
+    content: "-";
+}
+
+/*ACCORDEON PART */
+
+
+
+
+
+
+
+
+
+.tabs {
+    color: black;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    
+    display: grid;
+    font-family: 'vidaloka';
+    grid-template-rows: min-content 1fr;
+}
+.tabs-btn-container{
+    display: flex;
+    
+}
+.tab{
+    border: none;
+    background: ghostwhite;
+   
+    font-family: 'vidaloka';
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+.tab-content {
+    
+    padding: clamp(35px, 3vw, 40px);
+    grid-area: 2 / 1 / 3 /2;
+    min-height: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease-out ;
+}
+.tab-content p{
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.tab-content h3{
+    font-size: clamp(20px, 2vW, 25px);
+    font-family: 'vidaloka';
+}
+.active-tab {
+border-top: 3px solid #033971;
+background-color: #fff;
+font-weight: bolder;
+color: #033971;
+}
+.active-tab-content{
+    visibility: visible;
+    opacity: 1 ;
+}
+
+
+
+/* les differentes pages*/
+
+
+
